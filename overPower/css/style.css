@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:0px;
+}
+
+#logo{
+    margin: 15px 32px;;
+}
+
+#logo img {
+    height: 82px;
+    margin: -5px -1px;
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    padding: 2px 15px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#home{
+    display: flex;
+    height: 569px;
+    padding: 3px 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home::before{
+    content: "";
+    background:url('homebg.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 108%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.89;
+}
+
+.heading{
+    padding: 15px;
+    margin-top: 80px;
+    cursor: default;
+    font-size: 3.8rem;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.redWord{
+    color: red;
+}
+
+.regmsg{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    cursor: default;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 9px 16px;
+    background-color: rgb(235, 51, 51);
+    color: white;
+    border-radius: 15px;
+    
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    font-size: 20px;
+    border-color: black;
+}
+
+.btn:active{
+    background-color: white;
+    color: rgb(235, 51, 51);
+    
+}
+.headline{
+    font-size: 1.8rem;
+    cursor: default;
+}
+.btn2 {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 9px 31px;
+    background: none;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(235, 51, 51);
+    
+    color: white;
+}
+
+.btn2:active{
+    background-color: white;
+    color: rgb(235, 51, 51);
+    
+}
+
+.but{
+    display: flex;
+}
+
+#services{
+   margin: 34px;
+   display: flex;
+}
+
+#services .box img{
+    display: block;
+    margin: auto;
+}
+#services .box2 img{
+    display: block;
+    height: 227px;
+    margin: auto;
+}
+#services .box3 img{
+    display: block;
+    margin: auto;
+    height: 244px;
+}
+
+.box{
+    /* border: 2px solid brown; */
+    display: block;
+    cursor: pointer;
+    margin: auto;
+}
+.box2{
+    /* border: 2px solid brown; */
+    display: block;
+    cursor: pointer;
+    height: 344px;
+    margin: auto;
+}
+.box3{
+    /* border: 2px solid brown; */
+    display: block;
+    margin: auto;
+    height: 381px;
+    cursor: pointer;
+}
+.servicehead{
+    cursor: default;
+    color: black;
+    font-size: 3.8rem;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.servicehead2{
+    cursor: default;
+    color: black;
+    font-size: 3.8rem;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.boxdesc{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+}
+
+.textCenter{
+    display: block;
+    font-family: 'Bree Serif', serif;
+    cursor: default;
+    margin: auto;
+}
+
+#servicesContainer{
+    margin-top: 120px;
+}
+
+#home2::before{
+    content: "";
+    background:url('home2.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    height: 474px;
+    z-index: -1;
+}
+
+.gymEqiupments{
+    display: flex;
+}
+
+.box4{
+    display: block;
+    margin: auto;
+    margin-top: 81px;
+    margin-right: 836px;
+    /* border: 2px solid brown; */
+}
+
+.gymHead{
+    cursor: default;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.equipPara{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Bree Serif', serif;
+    cursor: default;
+}
+
+/* .btnReso{
+    display: block;
+    margin: auto;
+} */
+
+.btns{
+    padding: 4px 22px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 73px;
+}
+
+.btns:hover{
+    background-color: white;
+    color: black;
+}
+
+.btns2{
+    padding: 4px 22px;
+    background:none;
+    color: black;
+    border-radius: 15px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 73px;
+}
+
+.btns2:hover{
+    background-color: black;
+    color: white;
+}
+
+.box5{
+    margin-top: 122px;
+    font-family: 'Bree Serif', serif;
+    cursor: default;
+}
+
+
+
+
+

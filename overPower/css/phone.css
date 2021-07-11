@@ -1,0 +1,51 @@
+/* nabar */
+
+#navbar{
+    flex-direction: column;
+    position: sticky;
+}
+
+#navbar ul li a {
+    
+    display: flex;
+    padding: 0px 11px;
+    text-decoration: none;
+}
+
+/* home */
+
+#home h1{
+    font-size: 1.8rem;
+}
+
+#home .headline {
+    font-size: 1.0rem;
+}
+
+#home .regmsg {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+#home .btn{
+    font-size: 1.0;
+}
+
+#home .btn2{
+    font-size: 1.0;
+}
+
+
+/* our sevices */
+
+#services{
+    flex-direction: column;
+}
+
+
+
+/* our gym */
+
+#home2::before{
+    width: 621px;
+}
